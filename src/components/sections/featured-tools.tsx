@@ -80,6 +80,17 @@ const featuredTools: Tool[] = [
     image: '/tools/canva-ai.png',
     affiliate_link: 'https://canva.com',
   },
+  {
+    id: '7',
+    name: 'Roblox GUI Maker',
+    description: 'Free AI-assisted Roblox GUI builder for layouts, buttons, panels, and Lua-ready UI components.',
+    category: 'Coding',
+    rating: 4.6,
+    reviews: 120,
+    price: 'free',
+    image: '/tools/roblox-gui-maker.png',
+    affiliate_link: 'https://robloxguimaker.dev/',
+  },
 ]
 
 export default function FeaturedTools() {
